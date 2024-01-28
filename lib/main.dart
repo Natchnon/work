@@ -1,11 +1,21 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:work/page/register.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:work/page/login.dart';
 
-Future<void> main() async {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await initializeSharedPreferences();
   await Firebase.initializeApp();
   runApp(const MyApp());
+}
+
+Future<void> initializeSharedPreferences() async {
+  // Get an instance of SharedPreferences
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+
+  // You can use prefs to read or write data
+  // Example: prefs.setString('key', 'value');
 }
 
 class MyApp extends StatelessWidget {
@@ -36,7 +46,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Register(),
+      home: const Login(),
     );
   }
 }

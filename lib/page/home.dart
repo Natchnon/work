@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:work/page/register.dart';
+import 'package:work/page/login.dart';
 import 'package:work/service/shared_pref.dart';
 
 class Home extends StatefulWidget {
@@ -39,7 +39,7 @@ class _HomeState extends State<Home> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Register()),
+                  MaterialPageRoute(builder: (context) => Login()),
                 );
               },
             ),
