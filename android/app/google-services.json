@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "799821691494",
-    "project_id": "demo24-79756",
-    "storage_bucket": "demo24-79756.appspot.com"
+    "project_number": "367825906031",
+    "project_id": "myproject-aa7f2",
+    "storage_bucket": "myproject-aa7f2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:799821691494:android:cd7b2508d3af147682cba7",
+        "mobilesdk_app_id": "1:367825906031:android:f1c143c045bf12f362609a",
         "android_client_info": {
-          "package_name": "com.example.demo24"
+          "package_name": "com.example.flutter_applicationhuak_1"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyC75ZggzAsPwJ7h4K0fuaXETh_amNl4CF4"
+          "current_key": "AIzaSyAFmrLyRw_pRn988m4jMG-XZJH2VypbZcc"
         }
       ],
       "services": {
@@ -26,7 +26,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:799821691494:android:5d1b8b08346b676d82cba7",
+        "mobilesdk_app_id": "1:367825906031:android:19130e24d51a8c9f62609a",
         "android_client_info": {
           "package_name": "com.example.work"
         }
@@ -34,7 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyC75ZggzAsPwJ7h4K0fuaXETh_amNl4CF4"
+          "current_key": "AIzaSyAFmrLyRw_pRn988m4jMG-XZJH2VypbZcc"
         }
       ],
       "services": {
